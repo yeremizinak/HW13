@@ -9,8 +9,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.file.Files;
 
-public class Parse {
-    private static final String link = "https://jsonplaceholder.typicode.com/users";
+public class Task1 {
+    static final String link = "https://jsonplaceholder.typicode.com/users";
 
     static void sendPOST() throws IOException {
         URL url = new URL(link);
